@@ -230,6 +230,71 @@ p{
     margin: auto;
     margin-bottom: 50px;
 }
+.discounts{
+    margin: 50px 0px;
+    text-align: center;
+}
+.discounts h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.fast-discount{
+    background-image: url('images/Group\ 39.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+.dissc-contant{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 15%;
+    background-color: #ffffffce;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 30px;
+    text-align: left;
+}
+.dissc-contant h2{
+    margin: 10px 0px;
+}
+.fast-icons{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.fast-icons p{
+    font-size: 13px;
+}
+.diss-contant{
+    position: absolute;
+    width: 50%;
+    left: 15%;
+    top: 10%;
+    background-color: #ffffffbb;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 30px;
+    text-align: left;
+
+}
+.diss-contant h2{
+    margin: 10px 0px;
+}
+.second-discount{
+    background-image: url('images/Group\ 40.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
 .newsletter{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -429,5 +494,14 @@ footer{
     }
     .hrgn{
         width: 80%;
+    }
+    .diss-contant{
+        width: 80%;
+        left: 5%;
+    }
+    .dissc-contant{
+        width: 80%;
+        left: 5%;
+        top: 5%;
     }
 }
